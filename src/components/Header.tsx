@@ -2,8 +2,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { NAV_LINKS } from '@/constants';
-import { ButtonNav } from './ButtonNav';
 import { useState } from 'react';
+import { CustomLink } from './CustomLink';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -32,7 +32,9 @@ export function Header() {
         </ul>
 
         <div className="hidden lg:flex lg:items-center lg:justify-center">
-          <ButtonNav type="button" title="CONSULTANCY" icon="/seta-direita.png" />
+          <CustomLink href="/" size="default">
+            CONSTANCY
+          </CustomLink>
         </div>
 
         <button onClick={toggleMenu}>
