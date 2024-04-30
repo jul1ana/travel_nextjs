@@ -8,7 +8,7 @@ const link = tv({
   variants: {
     size: {
       default: 'px-2 py-4',
-      sm: 'px-2 py-4 max-w-[40%]'
+      sm: 'px-2 py-4 max-w-[50%]'
     },
     theme: {
       principal: '',

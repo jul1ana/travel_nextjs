@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className={`relative overflow-hidden ${poppins.variable}`}>
+      <body className={`relative ${poppins.variable}`}>
         <Header />
         {children}
         <Footer />
