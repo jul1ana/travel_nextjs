@@ -56,9 +56,9 @@ export function Business() {
             </div>
           </div>
 
-          <div className="bg-blue-600 p-4 rounded-md shadow-xl shadow-blue-100 hidden lg:block lg:col-span-2">
-            <div className="bg-contain h-20 bg-[url('/wave.png')] flex items-center justify-center">             
-              <p className="text-white text-center font-semibold">Sed perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaque quae</p>
+          <div className="bg-blue-600 p-4 rounded-md shadow-xl shadow-blue-100 lg:col-span-2">
+            <div className="bg-contain bg-[url('/wave.png')] flex items-center justify-center py-6 lg:py-2">             
+              <p className="text-white text-left lg:text-center font-semibold">Sed perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaque quae</p>
             </div>
           </div>
         </div>
