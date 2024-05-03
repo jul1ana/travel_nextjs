@@ -5,6 +5,7 @@ import { CaseStudies } from "@/components/CaseStudies";
 import { Feats } from "@/components/Feats";
 import { Hero } from "@/components/Hero";
 import { Members } from "@/components/Members";
+import { MiniMap } from "@/components/MiniMap";
 import { Plans } from "@/components/Plans";
 import { Services } from "@/components/Services";
 import { Testimonials } from "@/components/Testimonials";
@@ -22,6 +23,7 @@ export default function Home() {
       <Plans />
       <Testimonials />
       <Blog />
+      <MiniMap />
     </main>
   );
 }
