@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export function Blog() {
   return (
-    <section className="mx-auto max-w-[1440px] mb-40 space-y-6 px-6 lg:px-20 3xl:px-0">
+    <section className="bg-cover bg-[url('/blog_bg.png')] mx-auto max-w-[1440px] mb-40 space-y-6 px-6 lg:px-20 3xl:px-0">
       <div className="space-y-14">
         {/* TITLE */}
         <div className="text-center">
@@ -15,7 +15,7 @@ export function Blog() {
 
         {/* CARDS */}
         <div className="flex flex-col lg:flex-row gap-8">
-          <div className="flex flex-col p-6 space-y-6 shadow-lg shadow-cyan-100/50 rounded-md">
+          <div className="flex flex-col p-6 space-y-6 bg-white shadow-lg shadow-cyan-100/50 rounded-md">
             <Image src="/blog1.jpg" alt="Blog" width={390} height={220} className="rounded-md" />
 
             <div className="flex flex-col items-center space-y-6 font-semibold">
@@ -33,7 +33,7 @@ export function Blog() {
             </div>
           </div>
 
-          <div className="flex flex-col p-6 space-y-6 shadow-lg shadow-cyan-100/50 rounded-md">
+          <div className="flex flex-col p-6 space-y-6 bg-white shadow-lg shadow-cyan-100/50 rounded-md">
             <Image src="/blog1.jpg" alt="Blog" width={390} height={220} className="rounded-md" />
 
             <div className="flex flex-col items-center space-y-6 font-semibold">
@@ -51,7 +51,7 @@ export function Blog() {
             </div>
           </div>
 
-          <div className="flex flex-col p-6 space-y-6 shadow-lg shadow-cyan-100/50 rounded-md">
+          <div className="flex flex-col p-6 space-y-6 bg-white shadow-lg shadow-cyan-100/50 rounded-md">
             <Image src="/blog1.jpg" alt="Blog" width={390} height={220} className="rounded-md" />
 
             <div className="flex flex-col items-center space-y-6 font-semibold">
