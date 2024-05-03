@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export function Blog() {
   return (
-    <section className="mx-auto max-w-[1440px] space-y-6 px-6 lg:px-20 3xl:px-0">
+    <section className="mx-auto max-w-[1440px] mb-40 space-y-6 px-6 lg:px-20 3xl:px-0">
       <div className="space-y-14">
         {/* TITLE */}
         <div className="text-center">

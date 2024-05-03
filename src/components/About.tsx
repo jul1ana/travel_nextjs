@@ -3,7 +3,7 @@ import { PiUsersThreeBold } from "react-icons/pi";
 
 export function About() {
   return (
-    <section className="mx-auto max-w-[1440px] space-y-6 px-6 lg:px-20 3xl:px-0">
+    <section className="mx-auto max-w-[1440px] mb-40 space-y-6 px-6 lg:px-20 3xl:px-0">
       <div className="flex flex-col-reverse gap-10 lg:flex-row lg:space-x-5">
         {/* CONTENT */}
         <div className="space-y-8 lg:space-y-14">

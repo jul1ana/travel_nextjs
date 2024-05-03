@@ -12,7 +12,7 @@ import { Testimonials } from "@/components/Testimonials";
 
 export default function Home() {
   return (
-    <main className="space-y-40">
+    <main>
       <Hero />
       <Business />
       <About />

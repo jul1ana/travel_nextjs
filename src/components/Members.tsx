@@ -4,7 +4,7 @@ import { FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa";
 
 export function Members() {
   return (
-    <section className="mx-auto max-w-[1440px] px-6 lg:px-20 3xl:px-0">
+    <section className="mx-auto max-w-[1440px] px-6 mb-40 lg:px-20 3xl:px-0">
       <div className="space-y-10 flex flex-col items-center">
         {/* TITLE */}
         <div className="space-y-10 lg:space-y-0 lg:flex items-center justify-between lg:w-full">

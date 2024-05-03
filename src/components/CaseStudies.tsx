@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 export function CaseStudies() {
   return (
-    <section className="mx-auto max-w-[1440px] space-y-6 px-6 lg:px-20 3xl:px-0">
+    <section className="mx-auto max-w-[1440px] mb-40 space-y-6 px-6 lg:px-20 3xl:px-0">
       <div className="space-y-16 flex flex-col items-center">
         {/* TITLE */}
         <div className="space-y-10 flex flex-col lg:flex-row lg:space-y-0 items-center justify-between lg:w-full">

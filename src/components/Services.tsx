@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 export function Services() {
   return (
-    <section className="bg-[#211e3b]">
+    <section className="bg-[#211e3b] mb-40">
       <div className="mx-auto max-w-[1440px] px-6 py-20 lg:px-20 lg:py-48 3xl:px-0">
         <div className="flex flex-col space-y-16 lg:space-y-32">
           {/* CONTENT */}

@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export function Business() {
   return (
-    <section className="mx-auto max-w-[1440px] space-y-16 px-6 lg:px-20 3xl:px-0">
+    <section className="mx-auto max-w-[1440px] mb-40 space-y-16 px-6 lg:px-20 3xl:px-0">
       <div className="text-center">
         <p className="uppercase text-[#086ad7] font-semibold">How can help you</p>
         <h1 className="text-[#211e3b] text-3xl font-bold lg:text-5xl">We Help Your IT Business</h1>
