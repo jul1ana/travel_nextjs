@@ -14,6 +14,7 @@ const link = tv({
       principal: '',
       minimal: 'text-black bg-transparent hover:border hover:border-[#086ad7] hover:bg-[#086ad7] hover:text-white',
       off: 'text-[#211E3B] bg-[#EFEFF1] border-[#EFEFF1] hover:bg-[#000] hover:text-white',
+      blackout: 'text-[#FFF] bg-[#312E49] border border-[#312E49] hover:bg-[#FFF] hover:text-[#086ad7]'
     },
   },
   defaultVariants: {
