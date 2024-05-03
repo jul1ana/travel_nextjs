@@ -4,9 +4,9 @@ import { PiUsersThreeBold } from "react-icons/pi";
 export function About() {
   return (
     <section className="mx-auto max-w-[1440px] space-y-6 px-6 lg:px-20 3xl:px-0">
-      <div className="flex flex-col-reverse gap-10 lg:flex-row lg:w-full lg:space-x-5">
+      <div className="flex flex-col-reverse gap-10 lg:flex-row lg:space-x-5">
         {/* CONTENT */}
-        <div className="space-y-8 lg:w-1/2 lg:space-y-14">
+        <div className="space-y-8 lg:space-y-14">
           <div className="space-y-6">
             <p className="uppercase text-base text-[#086ad7] font-semibold">About Company</p>
             <h1 className="text-4xl font-bold text-[#211E3B] lg:text-6xl">Get’s IT Solutions For <br /> Expert Consultants</h1>
@@ -25,7 +25,7 @@ export function About() {
         </div>
 
         {/* IMAGE */}
-        <div className="bg-gray-300 px-6 py-40 rounded-md lg:px-0 lg:py-0 lg:w-1/2"> IMAGEM </div>
+        <Image src="/about-us.jpg" alt="Sobre nós" width={838} height={560} className="rounded-md" />
       </div>
     </section>
   )
