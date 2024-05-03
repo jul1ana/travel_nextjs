@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa";
 
@@ -36,7 +37,7 @@ export function CaseStudies() {
         {/* CARDS */}
         <div className="flex flex-col lg:flex-row gap-6">
           <div className="shadow-lg shadow-blue-200 rounded-md">
-            <div className="bg-gray-400 rounded-md p-28">IMAGE</div>
+            <Image src="/1.jpg" alt="Casos estudos" width={370} height={321} className="rounded-md" />
 
             <div className="p-8 font-semibold space-y-2">
               <h3 className="text-[#211E3B] text-xl">Business Knowledge</h3>
@@ -49,7 +50,7 @@ export function CaseStudies() {
           </div>
 
           <div className="shadow-lg shadow-blue-200 rounded-md">
-            <div className="bg-gray-400 rounded-md p-28">IMAGE</div>
+            <Image src="/1.jpg" alt="Casos estudos" width={370} height={321} className="rounded-md" />
 
             <div className="p-8 font-semibold space-y-2">
               <h3 className="text-[#211E3B] text-xl">Business Knowledge</h3>
@@ -62,7 +63,7 @@ export function CaseStudies() {
           </div>
 
           <div className="shadow-lg shadow-blue-200 rounded-md">
-            <div className="bg-gray-400 rounded-md p-28">IMAGE</div>
+            <Image src="/1.jpg" alt="Casos estudos" width={370} height={321} className="rounded-md" />
 
             <div className="p-8 font-semibold space-y-2">
               <h3 className="text-[#211E3B] text-xl">Business Knowledge</h3>
