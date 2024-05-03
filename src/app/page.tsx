@@ -1,4 +1,5 @@
 import { About } from "@/components/About";
+import { Blog } from "@/components/Blog";
 import { Business } from "@/components/Business";
 import { CaseStudies } from "@/components/CaseStudies";
 import { Feats } from "@/components/Feats";
@@ -20,6 +21,7 @@ export default function Home() {
       <CaseStudies />
       <Plans />
       <Testimonials />
+      <Blog />
     </main>
   );
 }
