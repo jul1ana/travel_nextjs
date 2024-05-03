@@ -8,7 +8,7 @@ export function MiniMap() {
 
         <div className="flex flex-col lg:flex-row gap-4">
           <CustomLink href='/' size="default">get started</CustomLink>
-          <CustomLink href='/' size="default">read more</CustomLink>
+          <CustomLink href='/' theme="blackout" size="default">read more</CustomLink>
         </div>
       </div>
     </div>
