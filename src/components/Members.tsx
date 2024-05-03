@@ -14,16 +14,14 @@ export function Members() {
           </div>
 
           <div>
-            <CustomLink href='/' theme="minimal">view all member</CustomLink>
+            <CustomLink href='/' theme="off">view all member</CustomLink>
           </div>
         </div>
 
         {/* CARDS */}
         <div className="space-y-10 lg:space-y-0 lg:flex gap-10">
           <div className="p-6 bg-gray-200 space-y-6 rounded-lg hover:bg-[#086ad7] hover:text-white">
-            <div className="bg-gray-500 px-6 py-20 rounded-lg">
-              IMAGEM
-            </div>
+            <Image src="/1.jpg" alt="Membros" width={200} height={200} className="rounded-md" />
 
             <div className="font-semibold space-y-4 flex flex-col items-center">
               <h4 className="text-[#211E3B] text-xl hover:text-white">Wallace S. Camacho</h4>
@@ -38,9 +36,7 @@ export function Members() {
           </div>
 
           <div className="p-6 bg-gray-200 space-y-6 rounded-lg hover:bg-[#086ad7] hover:text-white">
-            <div className="bg-gray-500 px-6 py-20 rounded-lg">
-              IMAGEM
-            </div>
+            <Image src="/1.jpg" alt="Membros" width={200} height={200} className="rounded-md" />
 
             <div className="font-semibold space-y-4 flex flex-col items-center">
               <h4 className="text-[#211E3B] text-xl hover:text-white">Wallace S. Camacho</h4>
@@ -55,9 +51,7 @@ export function Members() {
           </div>
 
           <div className="p-6 bg-gray-200 space-y-6 rounded-lg hover:bg-[#086ad7] hover:text-white">
-            <div className="bg-gray-500 px-6 py-20 rounded-lg">
-              IMAGEM
-            </div>
+            <Image src="/1.jpg" alt="Membros" width={200} height={200} className="rounded-md" />
 
             <div className="font-semibold space-y-4 flex flex-col items-center">
               <h4 className="text-[#211E3B] text-xl hover:text-white">Wallace S. Camacho</h4>
@@ -72,9 +66,7 @@ export function Members() {
           </div>
 
           <div className="p-6 bg-gray-200 space-y-6 rounded-lg hover:bg-[#086ad7] hover:text-white">
-            <div className="bg-gray-500 px-6 py-20 rounded-lg">
-              IMAGEM
-            </div>
+            <Image src="/1.jpg" alt="Membros" width={200} height={200} className="rounded-md" />
 
             <div className="font-semibold space-y-4 flex flex-col items-center">
               <h4 className="text-[#211E3B] text-xl hover:text-white">Wallace S. Camacho</h4>

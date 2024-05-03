@@ -13,7 +13,7 @@ const link = tv({
     theme: {
       principal: '',
       minimal: 'text-black bg-transparent hover:border hover:border-[#086ad7] hover:bg-[#086ad7] hover:text-white',
-      off: '',
+      off: 'text-[#211E3B] bg-[#EFEFF1] border-[#EFEFF1] hover:bg-[#000] hover:text-white',
     },
   },
   defaultVariants: {
